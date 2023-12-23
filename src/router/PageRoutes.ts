@@ -1,5 +1,10 @@
 export default [
   {
+    path: '/page/job-task',
+    name: 'job-task',
+    component: () => import( '@/views/speakRecording/SpeakRecording.vue'),
+  },
+  {
     path: '/starter',
     name: 'starter',
     component: () => import( '@/views/pages/BlankPage.vue'),

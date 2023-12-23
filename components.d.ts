@@ -125,6 +125,9 @@ declare module '@vue/runtime-core' {
     Message: typeof import('./src/components/utilities/auth-info/Message.vue')['default']
     Modals: typeof import('./src/components/modals/Modals.vue')['default']
     Newsletter: typeof import('./src/components/cards/Newsletter.vue')['default']
+    NoiceRecordingLevel: typeof import('./src/components/speak-recording/NoiceRecordingLevel.vue')['default']
+    NoiceRecordinLevel: typeof import('./src/components/speak-recording/NoiceRecordinLevel.vue')['default']
+    NoiseRecordingLevel: typeof import('./src/components/speak-recording/NoiseRecordingLevel.vue')['default']
     Notification: typeof import('./src/components/utilities/auth-info/Notification.vue')['default']
     OverviewCard: typeof import('./src/components/cards/OverviewCard.vue')['default']
     OverviewCardMesh: typeof import('./src/components/cards/OverviewCardMesh.vue')['default']
@@ -137,6 +140,7 @@ declare module '@vue/runtime-core' {
     RadarWithPolygonFill: typeof import('./src/components/apexcharts/radar-charts/RadarWithPolygonFill.vue')['default']
     RadialBarChartBasic: typeof import('./src/components/apexcharts/radialbar-charts/RadialBarChartBasic.vue')['default']
     RadialGradient: typeof import('./src/components/apexcharts/radialbar-charts/RadialGradient.vue')['default']
+    RecordButton: typeof import('./src/components/speak-recording/RecordButton.vue')['default']
     ReversedBar: typeof import('./src/components/apexcharts/bar-charts/ReversedBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
@@ -157,7 +161,9 @@ declare module '@vue/runtime-core' {
     Tabs: typeof import('./src/components/tabs/Tabs.vue')['default']
     Tag: typeof import('./src/components/tags/Tag.vue')['default']
     TaskList: typeof import('./src/components/tasklist/TaskList.vue')['default']
+    TimerDisplay: typeof import('./src/components/speak-recording/TimerDisplay.vue')['default']
     UniconCompo: typeof import('./src/components/icons/UniconCompo.vue')['default']
     VectorMap: typeof import('./src/components/utilities/VectorMap.vue')['default']
+    VUMeter: typeof import('./src/components/speak-recording/VUMeter.vue')['default']
   }
 }

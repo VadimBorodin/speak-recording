@@ -75,6 +75,14 @@ watch(
     @openChange="onOpenChange"
     @click="onClick"
   >
+	  
+	  <a-menu-item @click="toggleCollapsed" key="job-task">
+		  <template #icon>
+			  <unicon name="microphone"/>
+		  </template>
+		  <router-link to="/page/job-task"> Vue developer job task </router-link>
+	  </a-menu-item>
+	  
     <a-sub-menu key="dashboard">
       <template #icon>
         <unicon name="create-dashboard"></unicon>
